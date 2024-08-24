@@ -171,8 +171,8 @@ Logger</h1>
 <li><b>DISABLED</b></li>
 </ul>
 <p>The logger will only log messages with a level equal or higher than the one you set. You can also set a log file where the messages will be written, the default is <code>./logs/log.txt</code>.</p>
-<p>This is an example on how to log a message: </p><div class="fragment"><div class="line">Brenta::Logger::Log(Brenta::Types::LogLevel::DEBUG, <span class="stringliteral">&quot;This is a debug message: &quot;</span>, <span class="stringliteral">&quot;hello&quot;</span>);</div>
-<div class="line">DEBUG(<span class="stringliteral">&quot;This is a debug message with macro: &quot;</span>, <span class="stringliteral">&quot;hello&quot;</span>);</div>
+<p>This is an example on how to log a message: </p><div class="fragment"><div class="line">Brenta::Logger::Log(Brenta::Types::LogLevel::DEBUG, <span class="stringliteral">&quot;This is a debug message:</span></div>
+<div class="line"><span class="stringliteral">&quot;</span>, <span class="stringliteral">&quot;hello&quot;</span>); DEBUG(<span class="stringliteral">&quot;This is a debug message with macro: &quot;</span>, <span class="stringliteral">&quot;hello&quot;</span>);</div>
 </div><!-- fragment --><h1><a class="anchor" id="text"></a>
 Text</h1>
 <p>The <code><a class="el" href="classBrenta_1_1Text.html" title="Text subsystem.">Brenta::Text</a></code> subsystem allows you to render text on the screen. You can set the font and font size of your text, and render it in the main loop like this: </p><div class="fragment"><div class="line">Text::RenderText(<span class="stringliteral">&quot;Hello OpenGL!&quot;</span>, x, y, scale, glm::vec3(r, g, b));</div>
