@@ -233,6 +233,11 @@ Settings file</h1>
 <p>Example: </p><div class="fragment"><div class="line">level = debug</div>
 <div class="line">flags = level, date, time, pid, tid</div>
 <div class="line">file = tests/log_test.txt</div>
+</div><!-- fragment --> <h1><a class="anchor" id="async"></a>
+Asynchronous logging</h1>
+<p>By default, the library logs synchronously, meaning that the log message is formatted immediatly and sent to the writer's queue. You can format the message asynchronously by using the <code><a class="el" href="namespaceoak.html#add59bff0858c40454b92a7387e72a3a6">oak::async()</a></code> function.</p>
+<div class="fragment"><div class="line"><a class="code hl_function" href="namespaceoak.html#add59bff0858c40454b92a7387e72a3a6">oak::async</a>(<a class="code hl_enumvalue" href="namespaceoak.html#ae0e233add26270e8f3d67ab1f15e30edacaf9b6b99962bf5c2264824231d7a40c">oak::level::info</a>, <span class="stringliteral">&quot;Hello, {}!&quot;</span>, name);</div>
+<div class="ttc" id="anamespaceoak_html_add59bff0858c40454b92a7387e72a3a6"><div class="ttname"><a href="namespaceoak.html#add59bff0858c40454b92a7387e72a3a6">oak::async</a></div><div class="ttdeci">void async(const level &amp;lvl, const std::string &amp;fmt, Args &amp;&amp;...args)</div><div class="ttdef"><b>Definition</b> <a href="oak_8hpp_source.html#l00650">oak.hpp:650</a></div></div>
 </div><!-- fragment --> </div></div><!-- PageDoc -->
 <a href="doxygen_crawl.html"/>
 </div><!-- contents -->

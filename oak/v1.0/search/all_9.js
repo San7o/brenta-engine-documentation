@@ -16,7 +16,7 @@ var searchData=
   ['log_5fto_5fstring_13',['log_to_string',['../namespaceoak.html#a408f9839061a519d598b6dcc361a9ffa',1,'oak']]],
   ['logger_14',['Customizing the logger',['../index.html#custom',1,'']]],
   ['logger_15',['logger',['../structoak_1_1logger.html',1,'oak']]],
-  ['logging_16',['Just start logging',['../index.html#start',1,'']]],
+  ['logging_16',['Logging',['../index.html#async',1,'Asynchronous logging'],['../index.html#start',1,'Just start logging']]],
   ['logging_20to_20a_20file_17',['Logging to a file',['../index.html#file',1,'']]],
   ['logging_20to_20a_20socket_18',['Logging to a socket',['../index.html#socket',1,'']]],
   ['logging_20to_20different_20outputs_19',['Logging to different outputs',['../index.html#destinations',1,'']]]

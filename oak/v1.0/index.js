@@ -13,5 +13,6 @@ var index =
     [ "Customizing the logger", "index.html#custom", [
       [ "Customizing the log format", "index.html#format", null ]
     ] ],
-    [ "Settings file", "index.html#settings", null ]
+    [ "Settings file", "index.html#settings", null ],
+    [ "Asynchronous logging", "index.html#async", null ]
 ];
