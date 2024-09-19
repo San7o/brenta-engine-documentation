@@ -7,6 +7,7 @@ You can access all versions of the documentation from here
 ## Links:
 Brenta Engine:
 - v1.0: https://san7o.github.io/brenta-engine-documentation/v1.0
+- v1.1: https://san7o.github.io/brenta-engine-documentation/v1.1
 
 Oak:
 - v1.0: https://san7o.github.io/brenta-engine-documentation/oak/v1.0/
