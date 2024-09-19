@@ -109,14 +109,15 @@ Entity Component System</h1>
 <p>With those building blocks, you can create any game or application. We will go more in depth on how to use the ECS in the following sections.</p>
 <h2><a class="anchor" id="install"></a>
 Installation</h2>
-<p>To use the viotecs, you need to include the headers from the <code>include</code> directory and add <code>src/viotecs.cpp</code> to your sources in your project.</p>
+<p>To use the viotecs, you need to include the headers from the <code>include</code> directory and add <code>src/viotecs.cpp</code> to your sources in your project. The ECS uses <a href="https://github.com/San7o/oak">Oak</a> for logging, which must be included in your project as well.</p>
 <p>If you use CPM, you can add the following to your <code>CMakeLists.txt</code>: </p><div class="fragment"><div class="line">CPMAddPackage(</div>
 <div class="line">    NAME viotecs</div>
 <div class="line">    GITHUB_REPOSITORY San7o/viotecs</div>
 <div class="line">    GIT_TAG v1.0.0</div>
 <div class="line">    DOWNLOAD_ONLY True</div>
 <div class="line">)</div>
-</div><!-- fragment --><p>To use the ECS, just include the <code>viotecs/viotecs.hpp</code> header: </p><div class="fragment"><div class="line"><span class="preprocessor">#include &quot;viotecs/viotecs.hpp&quot;</span></div>
+</div><!-- fragment --><p>To use the ECS, just include the <code><a class="el" href="viotecs_8hpp.html">viotecs/viotecs.hpp</a></code> header: </p><div class="fragment"><div class="line"><span class="preprocessor">#include &quot;<a class="code" href="viotecs_8hpp.html">viotecs/viotecs.hpp</a>&quot;</span></div>
+<div class="ttc" id="aviotecs_8hpp_html"><div class="ttname"><a href="viotecs_8hpp.html">viotecs.hpp</a></div></div>
 </div><!-- fragment --><h1><a class="anchor" id="world"></a>
 The World</h1>
 <p>Everything that exists in the ECS is contained in the <code>World</code> class. The World is a singleton accessible from anywhere in the code and It will be your entry point to the ECS. You can create entities, assign components to them, and query entities with specific components. Let's take a look on how to use the World API.</p>
