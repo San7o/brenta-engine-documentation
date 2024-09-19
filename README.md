@@ -10,3 +10,9 @@ Brenta Engine:
 
 Oak:
 - v1.0: https://san7o.github.io/brenta-engine-documentation/oak/v1.0/
+
+valFuzz:
+- v1.0: https://san7o.github.io/brenta-engine-documentation/valfuzz/v1.0/
+
+viotecs:
+- v1.0: https://san7o.github.io/brenta-engine-documentation/viotecs/v1.0/
